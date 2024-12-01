@@ -9,11 +9,17 @@ This is a Tic-Tac-Toe game solver that checks for the following conditions:
 - All four corners
 - 2x2 box
 
+This will return `X`, `O`, or `null` if there is not a declared winner.
+
 ### 2) If there are any moves remaining:
 - If there are empty spaces (spaces where there are no X's or O's), and there is no winner, there are remaining moves.
 
+This will return a boolean.
+
 ### 3) Game is over:
 - If one of the 5 conditions above is met, or the board is full of X's and O's with no winner, then the game is over.
+
+This will return a boolean.
 
 ---
 
